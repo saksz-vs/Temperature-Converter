@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(images/temp3.png);
+    background-size: cover;
+    
+    
+    
+}
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+   
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 70px 40px;
+    left: 50%;
+    top: 50%;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(0,0,0.0.2);
+    color: aliceblue;
+    
+    margin: 0 28px;
+    box-shadow: 0 1x 1px #ABB2B9;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    
+    font-weight: bold;
+    font-size: large;
+    
+
+}
+
+input {
+    padding: 5px 2px;
+    width: 100px;
+    height: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
